@@ -99,13 +99,13 @@ Function pickaxe = craft(diamond, sticks)
 - `Assignment operator “=”`
 - 
 ``` MATLAB
-pig = 'Bacon, Chris P.';
+pig = 'Bacon, Chris P.'; % CORRECT
 ```
 
 - Talk about how to correctly (and incorrectly) use it
 
 ``` MATLAB
-'Bacon, Chris P.' = pig;
+'Bacon, Chris P.' = pig; % INCORRECT
 ```
 
 - Make sure the variable is on the left hand side of the assignment operator
