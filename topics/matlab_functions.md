@@ -62,12 +62,12 @@
 - Reminder - function file MUST be the same as function name
 
 ``` MATLAB
-- function nether
-- function biome(taiga)
-- function [ocelot wolf] friends(tamed)
-- function theEnd = ENDERDRAGON
-- function [ride, wheat, wheat, carrot] = toTame(horse cow sheep pig)
-- Function pickaxe = craft(diamond, sticks)
+function nether
+function biome(taiga)
+function [ocelot wolf] friends(tamed)
+function theEnd = ENDERDRAGON
+function [ride, wheat, wheat, carrot] = toTame(horse cow sheep pig)
+Function pickaxe = craft(diamond, sticks)
 ```
 
 
