@@ -1,7 +1,7 @@
 # Functions
 
 
-# What is a function?
+### What is a function?
 
 - Black box metaphor
     - Put stuff in, get stuff out.
@@ -29,7 +29,7 @@
 ### Defining vs. Calling
 
 
-- What does “calling” mean? Running a predefined function with some set of inputs
+- What does `“calling”` mean? Running a predefined function with some set of inputs
 
 - When we want to use a function, whether it is built in or one that we’ve
     - created, we “call” it (calling works the same for both
@@ -61,17 +61,17 @@
 
 - Reminder - function file MUST be the same as function name
 
-
+``` MATLAB
 - function nether
 - function biome(taiga)
 - function [ocelot wolf] friends(tamed)
 - function theEnd = ENDERDRAGON
 - function [ride, wheat, wheat, carrot] = toTame(horse cow sheep pig)
 - Function pickaxe = craft(diamond, sticks)
+```
 
 
-
-- Formal vs Actual parameters
+- `Formal` vs `Actual` parameters
     - Formal = variable names used in function definition
         - Variables in the function header
         - Define how many inputs and outputs are expected
@@ -91,18 +91,22 @@
 ### Variables
 
 
-- What is a variable and why do we need variables?
+- What is a `variable` and why do we need variables?
     - Variable is a storage device for data
     - We need them so we can easily reference the data they hold
 - Link it back to abstraction and defining functions that can work for any scenario • How do we define variables?
 
-- Assignment operator “=”
-
+- `Assignment operator “=”`
+- 
+``` MATLAB
 pig = 'Bacon, Chris P.';
+```
 
 - Talk about how to correctly (and incorrectly) use it
 
+``` MATLAB
 'Bacon, Chris P.' = pig;
+```
 
 - Make sure the variable is on the left hand side of the assignment operator
 
