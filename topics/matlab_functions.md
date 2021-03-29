@@ -77,8 +77,9 @@
         - Define how many inputs and outputs are expected
     - Actual = variables (or literal values) used when you call a function
 
-
-- maxVal = max(15,20)
+        ``` MATLAB
+        maxVal = max(15,20)
+        ```
     - 15 and 20 are actual parameters
 
 - When a function is called, actual parameter values are assigned to the
