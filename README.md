@@ -9,10 +9,22 @@ Personal notes to document my programming journey and create an efficient refere
 
 ### Python
 - [intro](./topics/py_intro.md)
+- [numpy](./topics/.md)
+- [pandas](./topics/.md)
+- [](./topics/.md)
+- [](./topics/.md)
+- [](./topics/.md)
+- [object oriented programming (OOP)](./topics/.md)
+- [personal libraries](./topics/.md)
 
 ### R
 
 # Tools
+- [atom](./topics/atom.md)
+- [git](./topics/git.md)
+- [jupyter](./topics/jupyter.md)
+- [](./topics/.md)
+- [](./topics/.md)
 
 # Linux
 
