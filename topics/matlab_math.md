@@ -8,7 +8,7 @@ A = [1 2 3;
      4 5 6]
 ```
 
-* length(A) - length of largest array dimension
+* --length(A)-- - length of largest array dimension
   ```matlab
   L = length(A)
   % L => 2
