@@ -1,5 +1,5 @@
 
-These notes are transcribed from [MathWorks Reference Sheet](./extra/mathworks_reference.pdf)
+These notes are transcribed from a [MathWorks Reference Sheet](./extra/mathworks_reference.pdf)
 
 # Matrices and Arrays
 
@@ -9,14 +9,30 @@ A = [1 2 3;
 ```
 
 * length(A) - length of largest array dimension
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
+* size(A) - array dimensions
 ```matlab
 L = length(A)
 % L => 2
 ```
-* size(A) - array dimensions
 * numel(A) - number of elements in array
+```matlab
+L = length(A)
+% L => 2
+```
 * sort(A) - sort array elements
+```matlab
+L = length(A)
+% L => 2
+```
 * sortrows(A) - sort rows of array or table
+```matlab
+L = length(A)
+% L => 2
+```
 * flip(A) - flip order of elements in array
 * squeeze(A) - remove dimensions of length 1
 * reshape(A, sz) - reshape array
