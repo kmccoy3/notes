@@ -6,6 +6,18 @@ Personal notes to document my programming journey and create an efficient refere
 ### MATLAB
 - [intro](./topics/matlab_intro.md)
 - [functions](./topics/matlab_functions.md)
+- [vectors](./topics/.md)
+- [logical and numerical indexing](./topics/.md)
+- [arrays](./topics/.md)
+- [conditionals](./topics/.md)
+- [iteration](./topics/.md)
+- [cell arrays](./topics/.md)
+- [structures](./topics/.md)
+- [low level file i/o](./topics/.md)
+- [](./topics/.md)
+- [](./topics/.md)
+- [](./topics/.md)
+- [math](./topics/matlab_math.md)
 
 ### Python
 - [intro](./topics/py_intro.md)
