@@ -3,18 +3,31 @@ These notes are transcribed from [MathWorks Reference Sheet](./extra/mathworks_r
 
 # Matrices and Arrays
 
+```matlab
+A = [1 2 3;
+     4 5 6]
+```
+
 * length(A) - length of largest array dimension
-* size(A)
-* numel(A)
-* sort(A)
-* sortrows(A)
-* flip(A)
-* squeeze(A)
-* reshape(A,sz)
-* repmat(A,n)
-* any(A), all(A)
-* nnz(A)
-* find(A)
+```matlab
+L = length(A)
+% L => 2
+```
+* size(A) - array dimensions
+* numel(A) - number of elements in array
+* sort(A) - sort array elements
+* sortrows(A) - sort rows of array or table
+* flip(A) - flip order of elements in array
+* squeeze(A) - remove dimensions of length 1
+* reshape(A, sz) - reshape array
+* repmat(A, n) - repeat copies of array
+* any(A), all(A) - check if any/all elements are nonzero
+* nnz(A) - number of nonzero array elements
+* find(A) - indices and values of nonzero elements
+
+```matlab
+
+```
 
 # Linear Algebra
 
