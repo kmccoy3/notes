@@ -68,3 +68,9 @@ git checkout EXISTING_BRANCH_NAME
 ``` shell
 git merge FEATURE_BRANCH
 ```
+
+fork means to copy repo to personal github, can make edits and make a pull request
+
+use GitHub pages to host personal website
+kmccoy3.github.io
+
