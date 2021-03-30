@@ -65,6 +65,6 @@ git checkout -b NEW_BRANCH_NAME
 git checkout EXISTING_BRANCH_NAME
 ```
 
-```shell
+``` shell
 git merge FEATURE_BRANCH
 ```
