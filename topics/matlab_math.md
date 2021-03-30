@@ -14,36 +14,63 @@ A = [1 2 3;
   % L => 2
   ```
 * size(A) - array dimensions
-```matlab
-L = length(A)
-% L => 2
-```
+  ```matlab
+  sz = size(A)
+  % sz => [2 3]
+    % OR
+  [r, c, ...] = size(A)
+  % r => 2, c => 3
+  ```
 * numel(A) - number of elements in array
-```matlab
-L = length(A)
-% L => 2
-```
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * sort(A) - sort array elements
-```matlab
-L = length(A)
-% L => 2
-```
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * sortrows(A) - sort rows of array or table
-```matlab
-L = length(A)
-% L => 2
-```
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * flip(A) - flip order of elements in array
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * squeeze(A) - remove dimensions of length 1
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * reshape(A, sz) - reshape array
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * repmat(A, n) - repeat copies of array
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * any(A), all(A) - check if any/all elements are nonzero
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * nnz(A) - number of nonzero array elements
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 * find(A) - indices and values of nonzero elements
-
-```matlab
-
-```
+  ```matlab
+  L = length(A)
+  % L => 2
+  ```
 
 # Linear Algebra
 
