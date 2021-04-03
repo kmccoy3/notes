@@ -4,7 +4,7 @@
 help(FUNCTION_NAME)
 
 # Docstring Format
-(pep 257 style guide)[https://www.python.org/dev/peps/pep-0257/]
+[pep 257 style guide](https://www.python.org/dev/peps/pep-0257/)
 
 one-line docstring
 ```python

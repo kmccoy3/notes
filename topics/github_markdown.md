@@ -1,64 +1,58 @@
 
-(GitHub Guide)[https://guides.github.com/features/mastering-markdown/]
+[GitHub Guide](https://guides.github.com/features/mastering-markdown/)
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# h1 header
+## h2 header
+###### h6 header
 
-*This text will be italic*
-_This will also be italic_
+*italicized*
+_also italicized_
 
-**This text will be bold**
-__This will also be bold__
+**bold**
+__also bold__
 
 _You **can** combine them_
 
+Bulleted list:
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 
+Numbered list:
   1. Item 1
   1. Item 2
   1. Item 3
      1. Item 3a
      1. Item 3b
 
-![GitHub Logo](/images/logo.png)
+![Kitten Picture](/images/kitten.png)
 Format: ![Alt Text](url)
 
 http://github.com - automatic!
 [GitHub](http://github.com)
 
-As Kanye West said:
+Quote:
+> Hello there.
+> General Kenobi.
 
-> We're living the future so
-> the present is our past.
+inline code `print()`
 
-I think you should use an
-`<addr>` element here instead.
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+```python
+def my_func():
+  return True
 ```
 
-        function fancyAlert(arg) {
-          if(arg) {
-            $.facebox({div:'#foo'})
-          }
-        }
+        def my_func():
+          return True
 
-def foo():
-  if not bar:
-    return True
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
 ~~strikethrough~~
+
+@kmccoy3
+
+Emoji 😜
+
+can directly reference a commit's SHA-1 hash or issue / pull request with number
