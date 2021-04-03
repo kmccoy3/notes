@@ -23,7 +23,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [intro](./topics/py_intro.md)
 - [numpy](./topics/.md)
 - [pandas](./topics/.md)
-- [](./topics/.md)
+- [OOP](./topics/.md)
 - [](./topics/.md)
 - [](./topics/.md)
 - [object oriented programming (OOP)](./topics/.md)
@@ -32,6 +32,7 @@ Personal notes to document my programming journey and create an efficient refere
 ### R
 
 # Tools
+- [github flavored markdown](./topics/github_markdown.md)
 - [atom](./topics/atom.md)
 - [git](./topics/git.md)
 - [jupyter](./topics/jupyter.md)
@@ -39,6 +40,26 @@ Personal notes to document my programming journey and create an efficient refere
 - [](./topics/.md)
 
 # Linux
+
+# Topics to add later
+- [SQL](./topics/.md)
+- [Spark](./topics/.md)
+- [Scala](./topics/.md)
+- [Java](./topics/.md)
+- [C++](./topics/.md)
+- [Hadoop](./topics/.md)
+- [Hive](./topics/.md)
+- [SAS](./topics/.md)
+- [Tableau](./topics/.md)
+- [Cloud computing](./topics/.md)
+- [Docker](./topics/.md)
+- [Kubernetes](./topics/.md)
+- [Tensorflow](./topics/.md)
+- [Keras](./topics/.md)
+- [Caffe](./topics/.md)
+- [MXNet](./topics/.md)
+- [Spark Mllib](./topics/.md)
+- [](./topics/.md)
 
 
 # Googling
