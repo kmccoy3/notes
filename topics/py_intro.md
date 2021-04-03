@@ -27,6 +27,7 @@ def my_func2(in1=5, in2=6.0):
 
 # Operations
 
+### Arithmetic Operations
 operator | name | description
 -------- | ---- | -----------
 a + b |	Addition |	Sum of a and b
@@ -37,3 +38,23 @@ a // b |	Floor division |	Quotient of a and b, removing fractional parts
 a % b |	Modulus |	Integer remainder after division of a by b
 a ** b |	Exponentiation |	a raised to the power of b
 -a |	Negation |	The negative of a
+
+### Logical Operations
+Operation |	Description | Operation | Description
+--------- | ----------- | --------- | -----------
+a == b |	a equal to b |	a != b |	a not equal to b
+a < b |	a less than b |	a > b |	a greater than b
+a <= b |	a less than or equal to b |	a >= b |	a greater than or equal to b
+
+# Data Types
+
+```Python
+list = [1, True, 'hello']
+tuple = (1, 2, 3)
+dictionary = {'key':value, 'key2':value2}
+```
+
+# Helpful functions
+
+type()
+dir() # to see all attributes and methods of import
