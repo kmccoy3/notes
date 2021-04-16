@@ -17,7 +17,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [](./topics/.md)
 - [](./topics/.md)
 - [](./topics/.md)
-- [math](./topics/matlab_math.md)
+- [math ](./topics/matlab_math.md)
 
 ### Python
 - [intro](./topics/py_intro.md)
