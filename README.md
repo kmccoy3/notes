@@ -36,7 +36,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [atom](./topics/atom.md)
 - [git](./topics/git.md)
 - [jupyter](./topics/jupyter.md)
-- [](./topics/.md)
+- [sublime](./topics/.md)
 - [](./topics/.md)
 
 # Linux
