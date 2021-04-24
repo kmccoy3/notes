@@ -69,4 +69,9 @@ Personal notes to document my programming journey and create an efficient refere
 website.com: query       - Search only in the website
 query 2017..2018         - Search in the date range
 filetype:pdf query       - Search just for file type
+AND / OR                 - Search for results related to both or just one term
+-exclude                 - Exclude results with phrase
+homemade * recipes       - Replace * with any word
+before:2020              - Search for results before date
+after:2020               - Search for results after date
 ```
