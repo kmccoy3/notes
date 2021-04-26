@@ -97,7 +97,7 @@ Function pickaxe = craft(diamond, sticks)
 - Link it back to abstraction and defining functions that can work for any scenario • How do we define variables?
 
 - `Assignment operator “=”`
-- 
+-
 ``` MATLAB
 pig = 'Bacon, Chris P.'; % CORRECT
 ```
