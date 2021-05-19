@@ -11,7 +11,7 @@ First, you must create a `Client` object
 client = bigquery.Client()
 ```
 
-Now, construct a reference to the dataset of choice, using the name of the dataset and the project it is contained in using the `.dataset()` method:
+Now, construct a `reference` to the dataset of choice, using the name of the dataset and the project it is contained in using the `.dataset()` method:
 ```Python
 dataset_ref = client.dataset("hacker_news", project="bigquery-public-data")
 ```
