@@ -31,6 +31,10 @@ Personal notes to document my programming journey and create an efficient refere
 
 ### R
 
+### SQL
+- [intro](./topics/sql_intro.md)
+
+
 # Tools
 - [github flavored markdown](./topics/github_markdown.md)
 - [atom](./topics/atom.md)
