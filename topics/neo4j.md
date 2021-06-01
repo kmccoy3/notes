@@ -9,7 +9,7 @@ CREATE (n)
 ```
 
 To fetch node:
-```SQL
+```
 MATCH (n) RETURN n;
 ```
 
@@ -206,7 +206,58 @@ MATCH (n:Book) WHERE n.author IN ["author1", "author2"] RETURN n;
 ### Update Properties on Node
 
 ```
+MATCH (n) WHERE n.title = "old" SET n.title = "new" RETURN n;
+MATCH (n:Book{title="old"}) SET n.title = "new" RETURN n;
+```
 
+To update multiple properties:
+```
+MATCH (n:Book{title:"title"}) SET n.author = "newAuthor", n.stock = true, n.price = 709 RETURN n;
+```
+
+To add property values to node:
+```
+MATCH (n:Book{title="old"}) SET n += {price: 176.00, pages: 28} RETURN n;
+```
+
+To add label to node using property:
+```
+MATCH (n) WHERE n.title = "title" SET n:Bestseller RETURN n;
+```
+
+To copy properties to nodes:
+```
+MATCH (gp{title:"title"}), (s1{title:"title2"}) SET gp = s1 RETURN gp, s1
 ```
 
 ### Delete Property From Node
+
+```
+MATCH (x:Book{author:"Orwell"}) SET x.publisher = NULL RETURN x;
+MATCH (s:Book) WHERE s.author = "Orwell" SET s.publisher = NULL RETURN s;
+```
+
+Removing a property from all nodes:
+```
+MATCH (n) REMOVE n.pages RETURN n;
+```
+
+Remove property using label:
+```
+MATCH (n) WHERE n:Bestseller REMOVE n.title RETURN n;
+```
+
+Remove property by property:
+```
+MATCH (n) WHERE n.author = "author1" REMOVE n.instock RETURN n;
+```
+
+Remove node by property:
+```
+MATCH (n) WHERE n.instock = false DELETE n;
+```
+
+Remove property from specific nodes:
+```
+MATCH (n) WHERE id(n) = 17 REMOVE n.price RETURN n;
+```
