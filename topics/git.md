@@ -3,74 +3,122 @@
 
 ### Basics
 
-To create new files:
-```shell
-touch foo.py
-```
-
 To clone a git repository:
-```shell
-git clone URL
+```
+git clone <URL>
 ```
 
-### Committing changes
+To create and open new files:
+```
+touch foo.py
+atom foo.py
+```
+
+### Committing Changes
 
 To add files to next commit:
-```shell
+```
 git add foo.py
 ```
 
 To commit:
-```shell
+```
 git commit -m “message”
+
 # to add and commit all files:
 git commit -am “message”
 ```
 
 To check the status of the added files:
-```shell
+```
 git status
 ```
 
 To push changes to origin:
-```shell
+```
 git push
 ```
 
 To pull changes from origin:
-```shell
+```
 git pull
 ```
 
+To show all commits and descriptors:
+```
+git log
+```
+
+### Merge Conflicts
+
+When attempting to push/pull change to/from git, if a line was edited differently in 2 commits, you will run into a merge conflict.
+
+It will look something like this in your editor:
+```
+<<<<<<< HEAD (Current Change)
+  <code>
+=======
+  <code>
+>>>>>>> <commit_hash> (Incoming Change)
+```
+
+Edit the code directly in your editor, remove the git markings, and commit changes.
+
 ### Resetting
 
-- [ ] Git reset —hard <commit>
-- [ ] Git reset —hard origin/master
+To reset to a previous commit:
+```
+git reset —-hard <commit_hash>
 
-
+# To reset to whatever is on GitHub:
+git reset —-hard origin/master
+```
 
 ### Branching
 
-
-- [ ] Master vs feature branches
 Use branching to work on new features without disturbing main code
-- [ ] Switch HEAD, refers to which branch youre working on
-- [ ] Can merge branches
+- Master vs feature branches
+- HEAD refers to which branch you are currently working on
 
 To know what branch you are currently on:
-- [ ] Git branch
+```
+git branch
+```
 
-```shell
+To change branches:
+```
 git checkout -b NEW_BRANCH_NAME
 git checkout EXISTING_BRANCH_NAME
 ```
 
-``` shell
-git merge FEATURE_BRANCH
+To merge branches:
+```
+git merge FEATURE_BRANCH # while on master branch
 ```
 
-fork means to copy repo to personal github, can make edits and make a pull request
+### Miscellaneous
 
-use GitHub pages to host personal website
-kmccoy3.github.io
+* `fork` means to copy repo to personal github, can make edits and make a pull request
+* You can use GitHub pages to host personal website
+  * Create github repository that follows the format `kmccoy3.github.io`
 
+
+### Github Documentation
+
+* Include the following when adding a README.md
+  * Project Name
+  * Description
+    * Keep it short and simple!
+  * Table of Contents
+  * Installation
+    * Include directions for setup, or even a gif!
+  * Usage
+    * Good use for screenshots.
+  * Contributing
+    * Outline how you would like others to contribute to your work.
+  * Credits
+    * Link to the authors.
+  * License
+
+If documentation becomes too long, create a wiki instead!
+* Unfortunately, wikis only available for public repos
