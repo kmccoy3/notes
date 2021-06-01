@@ -29,12 +29,14 @@ Personal notes to document my programming journey and create an efficient refere
 - [seaborn](./topics/seaborn.md)
 - [personal libraries](./topics/py_libraries.md)
 
-### R
-
 ### SQL 🔐
 - [intro](./topics/sql_intro.md)
 - [queries](./topics/sql_queries.md)
 
+# Graph / Network Theory
+- [intro](./topics/graph_intro.md)
+- [neo4j](./topics/neo4j.md)
+- [](./topics/.md)
 
 # Tools
 - [github flavored markdown](./topics/github_markdown.md)
@@ -61,7 +63,7 @@ after:2020               - Search for results after date
 ```
 
 # Topics to add later
-- [SQL](./topics/.md)
+- [R](./topics/.md)
 - [Spark](./topics/.md)
 - [Scala](./topics/.md)
 - [Java](./topics/.md)
