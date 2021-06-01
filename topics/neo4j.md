@@ -9,7 +9,7 @@ CREATE (n)
 ```
 
 To fetch node:
-```
+```SQL
 MATCH (n) RETURN n;
 ```
 
