@@ -31,8 +31,9 @@ Personal notes to document my programming journey and create an efficient refere
 
 ### R
 
-### SQL
+### SQL 🔐
 - [intro](./topics/sql_intro.md)
+- [queries](./topics/sql_queries.md)
 
 
 # Tools
