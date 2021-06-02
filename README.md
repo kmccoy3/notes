@@ -33,9 +33,9 @@ Personal notes to document my programming journey and create an efficient refere
 - [intro](./topics/sql_intro.md)
 - [queries](./topics/sql_queries.md)
 
-# Graph / Network Theory
+# Graph / Network Theory 🕸
 - [intro](./topics/graph_intro.md)
-- [neo4j](./topics/neo4j.md)
+- [neo4j + cypher](./topics/neo4j.md)
 - [](./topics/.md)
 
 # Tools

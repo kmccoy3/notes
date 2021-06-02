@@ -1,12 +1,15 @@
 
-# Neo4j
+# Neo4j + Cypher Query Language (CQL)
+
+# Nodes 🔴
 
 ### Create and View a Node
 
 To create node with ID 'n':
 ```
-CREATE (n)
+CREATE (n);
 ```
+* Semi-colon is only necessary when running multiple queries at once
 
 To fetch node:
 ```
@@ -261,3 +264,18 @@ Remove property from specific nodes:
 ```
 MATCH (n) WHERE id(n) = 17 REMOVE n.price RETURN n;
 ```
+
+# Relationships →
+
+```
+CREATE (node1)-[:RelationshipType]->(node2)
+```
+
+# Documentation
+
+Sources:
+https://neo4j.com/docs/cypher-manual/current/
+https://neo4j.com/blog/neo4j-video-tutorials/
+https://www.javatpoint.com/neo4j-tutorial
+
+Further Reading:
