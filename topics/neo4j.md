@@ -273,9 +273,7 @@ CREATE (node1)-[:RelationshipType]->(node2)
 
 # Documentation
 
-Sources:
+Sources / Further Reading:
 https://neo4j.com/docs/cypher-manual/current/
 https://neo4j.com/blog/neo4j-video-tutorials/
 https://www.javatpoint.com/neo4j-tutorial
-
-Further Reading:
