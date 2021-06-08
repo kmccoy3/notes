@@ -1,7 +1,8 @@
 # Notes 💻
 Personal notes to document my programming journey and create an efficient reference system.
 
-# Languages
+# Table of Contents
+## Languages
 
 ### MATLAB 🧮
 - [intro](./topics/matlab_intro.md)
@@ -33,27 +34,26 @@ Personal notes to document my programming journey and create an efficient refere
 - [intro](./topics/sql_intro.md)
 - [queries](./topics/sql_queries.md)
 
-# Topics
+## Topics
 
 ### Graph / Network Theory 🕸
 - [intro](./topics/graph_intro.md)
 - [neo4j + cypher](./topics/neo4j.md)
 
-
 ### Business Intelligence 🏢
 - [Tableau](./topics/tableau.md)
 
-# Tools
+## Tools
 - [github flavored markdown](./topics/github_markdown.md)
 - [atom](./topics/atom.md)
 - [git](./topics/git.md)
 - [jupyter](./topics/jupyter.md)
 - [sublime](./topics/sublime.md)
 
-# Linux
+## Linux
 - [basic terminal](./topics/.md)
 
-# Googling
+## Googling
 
 ```
 "exact query"            - Search for the exact phrase
@@ -67,7 +67,7 @@ before:2020              - Search for results before date
 after:2020               - Search for results after date
 ```
 
-# Topics to add later
+## Topics to add later
 - [R](./topics/.md)
 - [Spark](./topics/.md)
 - [Scala](./topics/.md)
@@ -76,7 +76,6 @@ after:2020               - Search for results after date
 - [Hadoop](./topics/.md)
 - [Hive](./topics/.md)
 - [SAS](./topics/.md)
-- [Tableau](./topics/.md)
 - [Cloud computing](./topics/.md)
 - [Docker](./topics/.md)
 - [Kubernetes](./topics/.md)
@@ -85,4 +84,18 @@ after:2020               - Search for results after date
 - [Caffe](./topics/.md)
 - [MXNet](./topics/.md)
 - [Spark Mllib](./topics/.md)
-- [](./topics/.md)
+
+# Installation
+No installation required.
+
+# Usage
+Click on the hyperlink for the subject you would like to learn more about and you will be taken to a markdown page with notes and reference material for that subject.
+
+# Contributing
+If you would like to contribute to this project, please email me at <kevinmccoy678@gmail.com>.
+
+# Credits
+This project contains a mixture of material written by me @kmccoy3 and copied from other sources with attribution.
+
+# License
+This project uses the MIT License. Please see `LICENSE` for more information.
