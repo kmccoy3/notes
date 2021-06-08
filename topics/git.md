@@ -5,48 +5,50 @@
 
 To clone a git repository:
 ```
-git clone <URL>
+$ git clone <URL>
 ```
 
 To create and open new files:
 ```
-touch foo.py
-atom foo.py
+$ touch foo.py
+$ atom foo.py
 ```
 
 ### Committing Changes
 
 To add files to next commit:
 ```
-git add foo.py
+$ git add foo.py
 ```
 
 To commit:
 ```
-git commit -m “message”
+$ git commit -m “message”
+```
 
-# to add and commit all files:
-git commit -am “message”
+To add and commit all files:
+```
+$ git commit -am “message”
 ```
 
 To check the status of the added files:
 ```
-git status
+$ git status
 ```
 
 To push changes to origin:
 ```
-git push
+$ git push
 ```
 
 To pull changes from origin:
 ```
-git pull
+$ git pull
 ```
 
 To show all commits and descriptors:
 ```
-git log
+$ git log
 ```
 
 ### Merge Conflicts
@@ -68,10 +70,12 @@ Edit the code directly in your editor, remove the git markings, and commit chang
 
 To reset to a previous commit:
 ```
-git reset —-hard <commit_hash>
+$ git reset —-hard <commit_hash>
+```
 
-# To reset to whatever is on GitHub:
-git reset —-hard origin/master
+To reset to whatever is on GitHub:
+```
+$ git reset —-hard origin/master
 ```
 
 ### Branching
@@ -82,18 +86,18 @@ Use branching to work on new features without disturbing main code
 
 To know what branch you are currently on:
 ```
-git branch
+$ git branch
 ```
 
 To change branches:
 ```
-git checkout -b NEW_BRANCH_NAME
-git checkout EXISTING_BRANCH_NAME
+$ git checkout -b NEW_BRANCH_NAME
+$ git checkout EXISTING_BRANCH_NAME
 ```
 
 To merge branches:
 ```
-git merge FEATURE_BRANCH # while on master branch
+$ git merge FEATURE_BRANCH # While on master branch
 ```
 
 ### Miscellaneous
