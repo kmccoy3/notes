@@ -98,8 +98,8 @@ git merge FEATURE_BRANCH # while on master branch
 
 ### Miscellaneous
 
-* `fork` means to copy repo to personal github, can make edits and make a pull request
-* You can use GitHub pages to host personal website
+* `fork` means to copy repo to personal github, can make edits and initiate a pull request.
+* You can use GitHub pages to host your personal website.
   * Create github repository that follows the format `kmccoy3.github.io`
 
 
