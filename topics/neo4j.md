@@ -327,7 +327,7 @@ APOC better for larger datasets
 LOAD CSV WITH HEADERS
 FROM 'file:///people.csv'
 AS line
-RETURN line LIMIT 10
+RETURN line LIMIT 10  
 
 LOAD CSV WITH HEADERS FROM
 'https://data.neo4j.com/v4.0-intro-neo4j/directors.csv' AS row
