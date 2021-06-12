@@ -271,6 +271,82 @@ MATCH (n) WHERE id(n) = 17 REMOVE n.price RETURN n;
 CREATE (node1)-[:RelationshipType]->(node2)
 ```
 
+# Importing Data with Neo4J
+There are a few options for importing data into neo4j:
+* LOAD CSV
+* neo4j-admin
+* neo4j ETL tool
+* APOC + Cypher
+* APOC + Cypher + jdbc
+* programming language + driver
+
+Normalized data represents data as separate files containing IDs, with another file containing the relationships between IDs.
+Denormalized data contains all data in one file.
+
+Can transofmr data with
+    toInteger()
+    toFloat()
+
+If all fields have data, then split() alone will work. If, however, some fields may have no values and you want an empty list created for the property, then you use split() together with coalesce().
+
+
+CREATE DATABASE name_of_database
+
+:dbs to switch
+
+
+
+If the number of rows exceeds 100K, then you have two options.
+
+The first option is to use :auto USING PERIODIC COMMIT LOAD CSV. Placing :auto USING PERIODIC COMMIT enables the load, by default, to commit its transactions every 1000 rows which will enable the entire import of a large file to succeed. However, there are certain types of Cypher constructs that will cause :auto USING PERIODIC COMMIT to be ignored. Cypher statements that use eager operators will prevent you from using :auto USING PERIODIC COMMIT. Some examples of these eager operators include:
+
+    collect()
+
+    count()
+
+    ORDER BY
+
+    DISTINCT
+
+If you cannot use :auto USING PERIODIC COMMIT because your Cypher include some eager operators, then you can use APOC to import the data, which you will learn about in the the next lesson.
+
+
+
+:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM
+  'https://data.neo4j.com/v4.0-intro-neo4j/movies1.csv' as row
+MERGE (m:Movie {id:toInteger(row.movieId)})
+    ON CREATE SET
+          m.title = row.title,
+          m.avgVote = toFloat(row.avgVote),
+          m.releaseYear = toInteger(row.releaseYear),
+          m.genres = split(row.genres,":")
+
+APOC better for larger datasets
+
+LOAD CSV WITH HEADERS
+FROM 'file:///people.csv'
+AS line
+RETURN line LIMIT 10
+
+LOAD CSV WITH HEADERS FROM
+'https://data.neo4j.com/v4.0-intro-neo4j/directors.csv' AS row
+MATCH (movie:Movie {id:toInteger(row.movieId)})
+MATCH (person:Person {id: toInteger(row.personId)})
+MERGE (person)-[:DIRECTED]->(movie)
+ON CREATE SET person:Director
+
+
+# Neo4J Bloom
+
+
+If you need to wipe out everything from the db including indexes (providing you have APOC) CALL apoc.schema.assert({},{},true); MATCH (n) DETACH DELETE n;
+
+  github with good examples: https://dev.neo4j.com/bloom-training-repo
+
+Search Phrases to create new functionality
+
+
 # Documentation
 
 Sources / Further Reading:
