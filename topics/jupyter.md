@@ -29,9 +29,9 @@ Note: Need to hit `esc` or click to the left of cell in order to exit edit mode.
 * Add `?` before any function to retrieve documentation
 * Use `%%js`, `%% html`, `%%latex`, `%%python2`, `%%python3` etc. to render code in that language.
 
-**If need to restart jupyter and kernel restart doesn't work, run following in terminal:**
-```
-sudo service jupyter restart
+**If you need to restart jupyter and kernel restart doesn't work, run following in terminal:**
+```console
+$ sudo service jupyter restart
 ```
 
 **Good Resources / Further Reading:**
