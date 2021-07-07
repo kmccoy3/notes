@@ -34,6 +34,9 @@ Personal notes to document my programming journey and create an efficient refere
 - [intro](./topics/sql_intro.md)
 - [queries](./topics/sql_queries.md)
 
+## C++
+- [intro](./topics/cpp_intro.md)
+
 ## Topics
 
 ### Graph / Network Theory 🕸
@@ -48,7 +51,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [atom](./topics/atom.md)
 - [git](./topics/git.md)
 - [jupyter](./topics/jupyter.md)
-- [sublime](./topics/sublime.md)
+- [Virtual Studio Code](./topics/vs_code.md)
 
 ## Linux
 - [basic terminal](./topics/.md)
@@ -72,7 +75,6 @@ after:2020               - Search for results after date
 - [Spark](./topics/.md)
 - [Scala](./topics/.md)
 - [Java](./topics/.md)
-- [C++](./topics/.md)
 - [Hadoop](./topics/.md)
 - [Hive](./topics/.md)
 - [SAS](./topics/.md)

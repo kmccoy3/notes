@@ -17,7 +17,7 @@ multi-line docstring
 ```python
 def my_func2(in1=5, in2=6.0):
     """Multiply inputs together.
-
+    
     Keyword arguments:
     in1 -- first input (default 5)
     in2 -- second input (default 6.0)
