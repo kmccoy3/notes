@@ -52,6 +52,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [git](./topics/git.md)
 - [jupyter](./topics/jupyter.md)
 - [Virtual Studio Code](./topics/vs_code.md)
+- [Homebrew](./topics/homebrew.md)
 
 ## Linux
 - [basic terminal](./topics/.md)
