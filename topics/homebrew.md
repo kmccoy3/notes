@@ -39,8 +39,8 @@ $ brew cleanup
 
 ### Cask Syntax
 ```
-# Simply add "cask" after "brew" command
-brew cask install google-earth-pro
+## Simply add "cask" after "brew" command
+$ brew cask install google-earth-pro
 ```
 
 ### MAS syntax

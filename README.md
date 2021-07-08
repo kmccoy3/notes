@@ -34,7 +34,7 @@ Personal notes to document my programming journey and create an efficient refere
 - [intro](./topics/sql_intro.md)
 - [queries](./topics/sql_queries.md)
 
-## C++
+### C++
 - [intro](./topics/cpp_intro.md)
 
 ## Topics
@@ -53,6 +53,10 @@ Personal notes to document my programming journey and create an efficient refere
 - [jupyter](./topics/jupyter.md)
 - [Virtual Studio Code](./topics/vs_code.md)
 - [Homebrew](./topics/homebrew.md)
+- [conda](./topics/conda.md)
+
+## MacOS
+- [shortcuts](./topics/mac_shortcuts.md)
 
 ## Linux
 - [basic terminal](./topics/.md)
